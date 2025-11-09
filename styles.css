@@ -126,30 +126,27 @@ strong {
 
 .body-img {
   width: 100%;
-  /* 100% of the viewport width */
   height: auto;
-  /* Keeps aspect ratio */
-  display: block;
-  /* Removes small bottom spacing */
-  margin: 5%;
-  padding: 0;
 }
 
 .double-img {
   display: flex;
+  justify-content: space-around
 }
 
 .double-img * {
-  width: 40% !important;
+  width: 45% !important;
 }
 
 .border-img {
-  border: 3px solid #c3c0bb;
+  border: 1px solid #c3c0bb;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .title-section {
   text-align: center;
-  margin: 60px 0;
+  margin: 60px 20px;
 }
 
 .main-title {
